@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1 class="my-4">Shopping Cart</h1>
+        <div class="cart">
+            <div class="item">
+                <div class="item-info">
+                    <h5 class="item-name">clothes</h5>
+                    
+                    <p class="item-description">tshirt</p>
+                    <p class="item-price">$10.00</p>
+                </div>
+                <div class="item-controls">
+                    <button class="btn btn-secondary add"><i class="fas fa-plus"></i></button>
+                    <span class="quantity">1</span>
+                    <button class="btn btn-secondary remove"><i class="fas fa-minus"></i></button>
+                    <button class="btn btn-danger delete"><i class="fas fa-trash-alt"></i></button>
+                    <button class="btn btn-primary like"><i class="fas fa-heart"></i></button>
+                </div>
+            </div>
+           
+            <div class="container">
+                <h1 class="my-4">Shopping Cart</h1>
+                <div class="cart">
+                    <div class="item">
+                        <div class="item-info">
+                            <h5 class="item-name">clothes</h5>
+                            <p class="item-description">shoes</p>
+                            <p class="item-price">$50.00</p>
+                        </div>
+                        <div class="item-controls">
+                            <button class="btn btn-secondary add"><i class="fas fa-plus"></i></button>
+                            <span class="quantity">1</span>
+                            <button class="btn btn-secondary remove"><i class="fas fa-minus"></i></button>
+                            <button class="btn btn-danger delete"><i class="fas fa-trash-alt"></i></button>
+                            <button class="btn btn-primary like"><i class="fas fa-heart"></i></button>
+                        </div>
+                    </div>
+                   
+        </div>
+        <div class="total">
+            <p>Total Price: $<span id="total-price">0.00</span></p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
